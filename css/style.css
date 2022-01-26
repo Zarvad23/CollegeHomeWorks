@@ -7,7 +7,7 @@
 body{
 	font-size: 20px;
 	font-family: 'Roboto', sans-serif;
-	min-height: 924px;
+	min-height: 1000px;
 	display: flex;
 	flex-direction: column;
 	color: white;
@@ -74,6 +74,7 @@ a{
 }
 
 .main-table td a{
+	color: #58cfed;
 	text-decoration: none;
 	transition: all 0.5s ease-out;
 	position: relative;
