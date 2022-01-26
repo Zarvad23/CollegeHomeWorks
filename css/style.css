@@ -78,6 +78,7 @@ main{
 }
 
 .main-table td a{
+	color: #58cfed;
 	text-decoration: none;
 	transition: all 0.5s ease-out;
 	position: relative;
@@ -88,7 +89,10 @@ main{
 	color: #9a9b9c;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 21d2d82626b56e9baecaf44cec40a4acc23b876f
 
 
 footer{
