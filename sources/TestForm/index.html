@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Страница бронирования</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>Шапка</header>
+	<div class="form-div">
+		<h2 style="text-align: center;">Страница бронирования</h2>
+		<form action="" method="get" oninput="result.value=parseInt(sale.value)*parseInt(qantity_salers.value)">
+		  <fieldset class="DateForBron">
+		  	<legend>Данные о заказе</legend>
+		  	<label for="Region">Регион: </label>
+		  	<select id="Region" multi>
+		  		<option value="Belgorod region">Белгородская область</option>
+		  		<option value="Bryansk region">Брянская область</option>
+		  		<option value="Vladimir region">Владимирская область</option>
+		  		<option value="Voronezh region">Воронежская область</option>
+		  		<option value="Ivanovo region">Ивановская область</option>
+		  	</select>
+		  	<label for="Adress">Адрес кемпинга: </label>
+		  	<select id="Adress" multi>
+		  		   <option value="Belgorod region">Белгородская область</option>
+		  		   <option value="Bryansk region">Брянская область</option>
+		  		   <option value="Vladimir region">Владимирская область</option>
+		  		   <option value="Voronezh region">Воронежская область</option>
+		  		   <option value="Ivanovo region">Ивановская область</option>
+		  		</select>
+		  	<label for="date-start">Дата заселения: </label>
+		  	<input type="date" id="date-start">
+		  	<label for="date-end">Дата заселения: </label>
+		  	<input type="date" id="date-end">
+		  	<label for="sale">Стоимость: </label>
+		  	<label for="#"><input type="number" id="sale" name="sale"> рубл</label>
+		  </fieldset>
+		  <fieldset class="dateFrombyer">
+		  	<legend>Данные о постояльцах (для каждого постояльца)</legend>
+		  	<label for="Surname">Фамилия: </label>
+		  	<input type="text" id="surname">
+		  	<label for="Name">Имя: </label>
+		  	<input type="text" id="Name">
+		  	<label for="Thirdname">Отчество: </label>
+		  	<input type="text" id="Thirdname">
+		  	<label for="date-born">Дата рождения: </label>
+		  	<input type="date" id="date-born">
+		  	<label for="document">Документ: </label>
+		  	<input type="text" id="document">
+		  </fieldset>
+		 <fieldset class="dop-uslug">
+		 	<legend>Выбор дополнительных услуг: </legend>
+		 	<label for="checkbox1" class="checkbox"><input type="checkbox" id="checkbox1" value="600"> Медицинское сопровождение</label>
+		 	<label for="checkbox2" class="checkbox"><input type="checkbox" id="checkbox2"value="600"> Курьерские услуги</label>
+		 	<label for="checkbox3" class="checkbox"><input type="checkbox" id="checkbox3"value="600"> Питание</label>
+		 </fieldset>
+		 <fieldset class="END">
+		 	<legend>Итого: </legend>
+		 	<label for="qantity_salers">Количество постояльцев: <input type="number" id="qantity_salers"></label>
+		 	<label for="total-price" class="total-price">Итоговая стоимость:<br><output name="result" for="sale">0</output> рубл</label>
+		 </fieldset>
+		 <button type="submit" class="btn">Заказать</button>
+		</form>
+	</div>
+	<footer>Подвал</footer>
+</body>
+</html>
