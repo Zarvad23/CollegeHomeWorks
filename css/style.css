@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	min-height: 924px;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	background: url(../images/Site_bg.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+a{
+	text-decoration: none;
+}
+
+.container{
+	width: 66.6%;
+	margin: 0 auto;
+}
+
+.header{
+	padding: 20px;
+}
+
+.header h1{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.header p {
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 40px;
+}
+
+.main-table{
+	font-size: 30px;
+  	text-align: left;
+  	border-collapse: collapse;
+  	background: rgba(37, 47, 72, .8);
+  	margin: 10px;
+  	width: 80%;
+  	margin: 0 auto;
+  	text-align: center;
+  	border: 3px solid #37B5A5;
+}
+
+.main-table th {
+  color: #EDB749;
+  font-size: 35px;
+  padding: 12px 17px;
+}
+.main-table td {
+  color: #58cfed;
+  padding: 7px 17px;
+  border: 2px solid #37B5A5;
+}
+
+
+.main-table tr:last-child td {
+  border-bottom: none;
+}
+.main-table td:last-child {
+  border-right: none;
+}
+
+.main-table td a{
+	text-decoration: none;
+	transition: all 0.5s ease-out;
+	position: relative;
+	cursor: pointer;
+}
+
+.main-table td a:visited{
+	color: #9a9b9c;
+}
+
+.clue{
+	display: flex;
+	align-items: center;
+}
+
+
+
+footer{
+	margin-top: auto;
+	text-align: center;
+	padding: 20px 0;
+	background: rgba(37, 47, 72, .8);
+	color: #EDB749;
+	font-size: 20px;
+}
