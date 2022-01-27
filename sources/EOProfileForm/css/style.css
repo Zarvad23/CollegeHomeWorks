@@ -5,16 +5,24 @@
 }
 
 body{
-	padding: 30px;
 	font-family: Arial;
+	padding: 30px;
 }
 
-form{
-	width: 260px;
+h1{
+	margin-bottom: 10px;
+}
+
+.form{
+	width: 400px;
 	display: flex;
 	flex-direction: column;
 }
 
+#langprog{
+	max-width: 110px;
+}
+
 #submit{
-	width: 70%;
+	width: 30%;
 }
